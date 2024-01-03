@@ -96,13 +96,13 @@ int main(){
     node* root = NULL;
 
     root = buildTree(root);
-    cout<<"After Prefix Traversal"<<endl;
+    cout<<"After PreOrder Traversal"<<endl;
     preOrder(root);
     cout<<endl<<endl;
-    cout<<"After Infix Traversal"<<endl;
+    cout<<"After InOrder Traversal"<<endl;
     inOrder(root);
     cout<<endl<<endl;
-    cout<<"After Postfix Traversal"<<endl;
+    cout<<"After PostOrder Traversal"<<endl;
     postOrder(root);
     levelOrderTraversal(root);
     cout<<"Mirror Image"<<endl;
